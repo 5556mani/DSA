@@ -77,7 +77,7 @@ int HW2(){
             //cout<<"j: "<<j<<endl;
 
             if(original[i]==original[j]){
-                count++;
+                count++; // instead of running complete loop wwe can break the loop when count get 2, as we dont need total count
             }
         }
         
